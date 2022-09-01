@@ -62,27 +62,25 @@ main {
     font-size: 2rem;
     line-height: 2rem;
     color: hsl(212, 21%, 14%);
-    order: 1;
 }
 
 .columna_header_text {
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: .75rem;
     letter-spacing: 5px;
+    font-weight: lighter;
 }
 
 .columna_descripcion {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: lighter;
     line-height: 1.45rem;
-    order: 2;
 }
 
 .precios {
     display: flex;
     align-items: center;
     margin: 1.3rem 0 1.3rem 0;
-    order: 3;
 }
 
 .precio_oferta {
@@ -90,14 +88,16 @@ main {
     display: inline-block;
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
+    font-weight: 600;
     font-size: 2rem;
+    letter-spacing: 1px;
 }
 
 .precio_antes {
     display: inline-block;
     font-weight: lighter;
     text-decoration: line-through;
-    font-size: 13px;
+    font-size: 0.813rem;
 }
 
 a {
@@ -109,7 +109,6 @@ a {
     color: white;
     font-size: .9rem;
     border-radius: 8px;
-    order: 4;
 }
 
 a:hover {
@@ -155,7 +154,7 @@ a:hover {
     }
 
     .columna_descripcion {
-        font-size: 14px;
+        font-size: .89rem;
         line-height: 24px;
     }
 
