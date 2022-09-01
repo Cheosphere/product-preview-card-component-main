@@ -56,33 +56,37 @@ main {
     border-radius: 8px 0 0 8px;
 }
 
-h1 {
+.columna_title {
     margin: 1rem 0;
     font-family: 'Fraunces', serif;
     font-size: 2rem;
     line-height: 2rem;
     color: hsl(212, 21%, 14%);
+    order: 1;
 }
 
-.contenedor p:first-child {
+.columna_header_text {
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 5px;
 }
 
-.contenedor p:last-of-type {
+.columna_descripcion {
     font-size: 14px;
-    line-height: 1.5rem;
+    font-weight: lighter;
+    line-height: 1.45rem;
+    order: 2;
 }
 
 .precios {
     display: flex;
     align-items: center;
-    margin: 1.5rem 0 1.3rem 0;
+    margin: 1.3rem 0 1.3rem 0;
+    order: 3;
 }
 
 .precio_oferta {
-    margin-right: 1rem;
+    margin-right: 1.2rem;
     display: inline-block;
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
@@ -103,8 +107,9 @@ a {
     background-color: hsl(158, 36%, 37%);
     text-decoration: none;
     color: white;
-    font-size: .85rem;
+    font-size: .9rem;
     border-radius: 8px;
+    order: 4;
 }
 
 a:hover {
@@ -143,13 +148,13 @@ a:hover {
         border-radius: 0 0 8px 8px;
     }
 
-    h1 {
+    .columna_title {
         margin: .8rem 0;
         font-size: 2rem;
         line-height: 34px;
     }
 
-    .contenedor p:last-of-type {
+    .columna_descripcion {
         font-size: 14px;
         line-height: 24px;
     }
