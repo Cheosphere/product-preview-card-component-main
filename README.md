@@ -5,7 +5,7 @@ El desafío es desarrollar este componente de tarjeta de vista previa del produc
 - HTML
 - CSS
 
-![desktop-preview](https://user-images.githubusercontent.com/112582420/187975376-f627bcc0-fa21-4183-aa91-aaf8617bed1d.jpg)
+![desktop-design](https://user-images.githubusercontent.com/112582420/188211509-166eabaa-fbc8-4183-8c41-8aa8e500306f.jpg)
 
 # Guía de Estilo
 
