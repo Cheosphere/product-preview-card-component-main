@@ -28,6 +28,7 @@ main {
     font-family: 'Montserrat', sans-serif;
     color: hsl(229, 8%, 62%);
     background-color: hsl(30, 38%, 92%);
+    transition: all .4s ease-out;
 }
 
 /* ESTILOS CONTENEDOR PRINCIPAL */
@@ -47,6 +48,7 @@ main {
     justify-content: space-between;
     background-color: hsl(0, 0%, 100%);
     border-radius: 0 8px 8px 0;
+    transition: all .3s ease-out;
 }
 
 .columna:first-child {
