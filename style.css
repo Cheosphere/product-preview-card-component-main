@@ -115,6 +115,7 @@ a {
     color: white;
     font-size: .9rem;
     border-radius: 8px;
+    transition: all .2s ease-out;
 }
 
 a:hover {
