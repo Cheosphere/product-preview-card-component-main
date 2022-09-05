@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(30, 30, 30);
+    background-color: hsl(30, 38%, 92%);
 }
 
 /* ESTILOS MAIN */
@@ -27,7 +27,6 @@ main {
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     color: hsl(229, 8%, 62%);
-    background-color: hsl(30, 38%, 92%);
     transition: all .4s ease-out;
 }
 
